@@ -107,33 +107,40 @@ var promos: [Promo] = [
         ])
     ]),
     Promo(name: "AFE", numberIconOfPromo: "extended", group: [
-        Group(theme: "Art", image: "cecile", student: [
-            Student(name: "William", avatar: "cecile"),
-            Student(name: "Maxime", avatar: "cecile"),
-            Student(name: "Thomas", avatar: "cecile"),
-            Student(name: "Felix", avatar: "cecile"),
-            Student(name: "Richelson", avatar: "cecile")
+        Group(theme: "Espace", image: "espace", student: [
+            Student(name: "Medhi", avatar: "medhiTransportExtended"),
+            Student(name: "Veronique", avatar: "veronicaEspaceExtended"),
+            Student(name: "Anne", avatar: "anneEspaceExtended"),
+            Student(name: "Margaux", avatar: "margauxEspaceExtended"),
+            Student(name: "Ellana", avatar: "ellanaEspaceExtended")
         ]),
-        Group(theme: "Voyage", image: "cecile", student: [
-            Student(name: "Sophian", avatar: "cecile"),
-            Student(name: "Sarah", avatar: "cecile"),
-            Student(name: "Antua", avatar: "cecile"),
-            Student(name: "Maryam", avatar: "cecile"),
-            Student(name: "Darya", avatar: "cecile")
+        Group(theme: "Transport", image: "transport", student: [
+            Student(name: "Tristan", avatar: "tristanTransportExtended"),
+            Student(name: "Anthony", avatar: "anthonyTransportExtended"),
+            Student(name: "Ghunahele", avatar: "ghuenaheleTransportExtended"),
+            Student(name: "Yves", avatar: "yvesTransportExtended"),
+            Student(name: "Suzanne", avatar: "suzanneTransportExtended")
         ]),
-        Group(theme: "Ecologie", image: "cecile", student: [
-            Student(name: "Elisabeth", avatar: "cecile"),
-            Student(name: "Remy", avatar: "cecile"),
-            Student(name: "Loic", avatar: "cecile"),
-            Student(name: "Adam", avatar: "cecile"),
-            Student(name: "Hicham", avatar: "cecile")
+        Group(theme: "Cinéma", image: "cinema", student: [
+            Student(name: "Mohammed", avatar: "mohamedCinemaExtended"),
+            Student(name: "Louisa", avatar: "lousiaCinemaExtended"),
+            Student(name: "Thibault", avatar: "thbaultCinemaExtended"),
+            Student(name: "Cécile", avatar: "cecileCinemaExtended"),
+            Student(name: "Jonathan", avatar: "jonathanCinemaExtended")
         ]),
-        Group(theme: "Cuisine", image: "cecile", student: [
-            Student(name: "Benjamin", avatar: "cecile"),
-            Student(name: "Kenzy", avatar: "cecile"),
-            Student(name: "Sadiya", avatar: "cecile"),
-            Student(name: "Abdellilah", avatar: "cecile"),
-            Student(name: "Richelson", avatar: "cecile")
+        Group(theme: "Santé", image: "sante", student: [
+            Student(name: "Sylvain", avatar: "sylvainSanteExtended"),
+            Student(name: "Marie", avatar: "marieSanteExtended"),
+            Student(name: "Amelie", avatar: "amelieSanteExtended"),
+            Student(name: "Priyanka", avatar: "priyankaSanteExtended"),
+            Student(name: "Fella", avatar: "fellaSanteExtended")
+        ]),
+        Group(theme: "Loisir", image: "loisir", student: [
+            Student(name: "Cindie", avatar: "cindieLoirsirExtend"),
+            Student(name: "Léo", avatar: "leoLoisirExtended"),
+            Student(name: "Cesaltina", avatar: "cesaltinaloisirExtended"),
+            Student(name: "Morgan", avatar: "morganLoisirExtended"),
+            Student(name: "Thomas", avatar: "thomasLoisirExtended")
         ])
     ]),
     Promo(name: "AFP 3", numberIconOfPromo: "three", group: [
