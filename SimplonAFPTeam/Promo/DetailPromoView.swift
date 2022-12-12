@@ -10,32 +10,34 @@ import SwiftUI
 struct DetailPromoView: View {
     var promo: Promo
     var body: some View {
-        VStack {
-            Image(promo.numberIconOfPromo)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: 150, height: 150)
-                .clipShape(Circle())
-                .shadow(color: .black, radius: 2, x: 2, y: 2)
-                .padding()
-            Spacer()
-           
-        
-          
-            Text("Nombre de groupe de l' \(promo.name) : \(promo.group.count) groupe")
-                .fontWeight(.bold)
-                .font(.callout)
-            ForEach(promo.group){ group in
-                NavigationLink {
-                    DetailGroupView(group: group)
-                } label: {
-                    PresentationView(image: group.image, name: group.theme)
-                }
-
+        ScrollView {
+            VStack {
+                Image(promo.numberIconOfPromo)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 150, height: 150)
+                    .clipShape(Circle())
+                    .shadow(color: .black, radius: 2, x: 2, y: 2)
+                    .padding()
+                Spacer()
                
+            
+              
+                Text("Nombre de groupe de l' \(promo.name) : \(promo.group.count) groupe")
+                    .fontWeight(.bold)
+                    .font(.callout)
+                ForEach(promo.group){ group in
+                    NavigationLink {
+                        DetailGroupView(group: group)
+                    } label: {
+                        PresentationView(image: group.image, name: group.theme)
+                    }
+
+                   
+                }
             }
+            .navigationTitle("L'\(promo.name)")
         }
-        .navigationTitle("L'\(promo.name)")
     }
 }
 

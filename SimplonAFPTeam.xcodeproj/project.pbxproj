@@ -21,6 +21,8 @@
 		270FAB3929434F3900906719 /* DetailPromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FAB3829434F3900906719 /* DetailPromoView.swift */; };
 		270FAB3B29435DCB00906719 /* DetailStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FAB3A29435DCB00906719 /* DetailStudentView.swift */; };
 		270FAB3D2943684800906719 /* DetailGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270FAB3C2943684800906719 /* DetailGroupView.swift */; };
+		27451F1129472FB80049CC8A /* LandingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27451F1029472FB80049CC8A /* LandingScreenView.swift */; };
+		27451F1329472FCE0049CC8A /* AppleFoundationWelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27451F1229472FCE0049CC8A /* AppleFoundationWelcomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		270FAB3829434F3900906719 /* DetailPromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPromoView.swift; sourceTree = "<group>"; };
 		270FAB3A29435DCB00906719 /* DetailStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStudentView.swift; sourceTree = "<group>"; };
 		270FAB3C2943684800906719 /* DetailGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailGroupView.swift; sourceTree = "<group>"; };
+		27451F1029472FB80049CC8A /* LandingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenView.swift; sourceTree = "<group>"; };
+		27451F1229472FCE0049CC8A /* AppleFoundationWelcomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFoundationWelcomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +75,12 @@
 		270FAB1729432BEA00906719 /* SimplonAFPTeam */ = {
 			isa = PBXGroup;
 			children = (
+				27451F0F29472F9A0049CC8A /* ViewCustom */,
 				270FAB3529434CD500906719 /* Promo */,
 				270FAB2E294340B200906719 /* Team */,
 				270FAB1829432BEA00906719 /* SimplonAFPTeamApp.swift */,
 				270FAB1C29432BEC00906719 /* Assets.xcassets */,
 				270FAB1E29432BEC00906719 /* Preview Content */,
-				270FAB2A294330CA00906719 /* PresentationView.swift */,
 			);
 			path = SimplonAFPTeam;
 			sourceTree = "<group>";
@@ -111,6 +115,16 @@
 				270FAB3C2943684800906719 /* DetailGroupView.swift */,
 			);
 			path = Promo;
+			sourceTree = "<group>";
+		};
+		27451F0F29472F9A0049CC8A /* ViewCustom */ = {
+			isa = PBXGroup;
+			children = (
+				270FAB2A294330CA00906719 /* PresentationView.swift */,
+				27451F1029472FB80049CC8A /* LandingScreenView.swift */,
+				27451F1229472FCE0049CC8A /* AppleFoundationWelcomView.swift */,
+			);
+			path = ViewCustom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				270FAB322943411D00906719 /* Group.swift in Sources */,
+				27451F1129472FB80049CC8A /* LandingScreenView.swift in Sources */,
 				270FAB2729432C0400906719 /* Team.swift in Sources */,
 				270FAB1929432BEA00906719 /* SimplonAFPTeamApp.swift in Sources */,
 				270FAB2929432EAC00906719 /* ListTeamView.swift in Sources */,
@@ -195,6 +210,7 @@
 				270FAB2B294330CA00906719 /* PresentationView.swift in Sources */,
 				270FAB342943412B00906719 /* Student.swift in Sources */,
 				270FAB3D2943684800906719 /* DetailGroupView.swift in Sources */,
+				27451F1329472FCE0049CC8A /* AppleFoundationWelcomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

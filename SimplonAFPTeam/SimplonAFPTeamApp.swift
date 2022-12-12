@@ -11,7 +11,7 @@ import SwiftUI
 struct SimplonAFPTeamApp: App {
     var body: some Scene {
         WindowGroup {
-            ListPromoView()
+            LandingScreenView()
         }
     }
 }
