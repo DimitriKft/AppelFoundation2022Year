@@ -202,12 +202,13 @@ var promos: [Promo] = [
             Student(name: "Jessica", avatar: "jessicaSante1"),
             Student(name: "Laurent", avatar: "laurentSante1")
         ]),
-        Group(theme: "Voyage", image: "voyage", student: [
-            Student(name: "Sophian", avatar: "cecile"),
-            Student(name: "Sarah", avatar: "cecile"),
-            Student(name: "Antua", avatar: "cecile"),
-            Student(name: "Maryam", avatar: "cecile"),
-            Student(name: "Darya", avatar: "cecile")
+        Group(theme: "Gaming", image: "gaming", student: [
+            Student(name: "Hermano", avatar: "hermanoGamingAFP1"),
+            Student(name: "Marvin", avatar: "marvinGamingAFP1"),
+            Student(name: "Nelson", avatar: "nelsonGamingAFP1"),
+            Student(name: "Nicolas", avatar: "nicolasGamingAFP1"),
+            Student(name: "Nirina", avatar: "nirinaGamingAFP1"),
+            Student(name: "Pagni", avatar: "pagniGamingAFP1")
         ]),
         Group(theme: "Ecologie", image: "ecologie", student: [
             Student(name: "Badredine", avatar: "badredineEcologie1"),

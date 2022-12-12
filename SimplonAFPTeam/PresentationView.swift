@@ -17,6 +17,7 @@ struct PresentationView: View {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 60, height: 60)
                 .clipShape(Circle())
+                .shadow(color: .black, radius: 2, x: 2, y: 2)
             Text(name)
                 .foregroundColor(.black)
             Spacer()
